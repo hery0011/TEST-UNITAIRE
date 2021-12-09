@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1637225398">
+  <project timestamp="1637225398">
+    <file name="C:\wamp64\www\formation\ex2\math.php">
+      <line num="4" type="stmt" count="0"/>
+      <metrics loc="4" ncloc="4" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="1" coveredelements="0"/>
+    </file>
+    <metrics files="1" loc="4" ncloc="4" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="1" coveredelements="0"/>
+  </project>
+</coverage>

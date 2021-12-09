@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" colors="true" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
+  <coverage processUncoveredFiles="false">
+    <include>
+      <directory suffix=".php">./</directory>
+    </include>
+    <exclude>
+      <directory suffix=".php">./vendor</directory>
+	  <directory suffix=".test.php">./</directory>
+	  <directory suffix=".test.dont.php">./</directory>
+    </exclude>
+    <report>
+      <clover outputFile="coverage/phpunit/clover.xml"/>
+      <html outputDirectory="coverage/phpunit/html" lowUpperBound="35" highLowerBound="70"/>
+      <text outputFile="php://stdout" showUncoveredFiles="true"/>
+    </report>
+  </coverage>
+  <testsuite name="My Test Suite">
+    <directory suffix=".test.php">./</directory>
+  </testsuite>
+  <logging/>
+</phpunit>

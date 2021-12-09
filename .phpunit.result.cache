@@ -1,0 +1,1 @@
+{"version":1,"defects":{"MathTest::testDivisorValue1":4,"MathTest::testDivisorValue3":3},"times":{"MathTest::testDivisorValue1":0.022,"MathTest::testDivisorValue2":0.002,"MathTest::testDivisorValue3":0.006,"MathTest::testGcdValue1":0.002,"MathTest::testGcdValue2":0.001}}
